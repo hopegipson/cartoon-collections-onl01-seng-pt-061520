@@ -14,7 +14,10 @@ end
 
 def long_planeteer_calls(array)
     longword = array.any{|i| i.length > 4}
-    
+    if longword != nil
+      false
+    else
+      true
 end
 
 def find_the_cheese# code an argument here
