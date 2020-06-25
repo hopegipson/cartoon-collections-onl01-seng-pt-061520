@@ -1,10 +1,8 @@
 def roll_call_dwarves(array)
  array.each_with_index do |names, index|
     dwarf_number = index + 1
-    puts "#{dwarf_number} You'll be assigned to room #{room_number}!"
-    room_assignment_array << room_assignment
+    puts "#{dwarf_number} #{names}"
   end
-  return room_assignment_arrayend
 
 def summon_captain_planet# code an argument here
   # Your code here
