@@ -13,7 +13,7 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-    longword = array.any{|i| i.length > 4}
+    longword = array.find{|i| i.length > 4}
     if longword != nil
     true
     else
