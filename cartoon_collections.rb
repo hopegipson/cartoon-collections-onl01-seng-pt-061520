@@ -1,6 +1,10 @@
 def roll_call_dwarves(array)
-  # Your code here
-end
+ array.each_with_index do |names, index|
+    room_number = index + 1
+    room_assignment = "Hello, #{names}! You'll be assigned to room #{room_number}!"
+    room_assignment_array << room_assignment
+  end
+  return room_assignment_arrayend
 
 def summon_captain_planet# code an argument here
   # Your code here
