@@ -23,6 +23,6 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.each do|ingredients|
-  
+  cheese_types.each do|ingredient|
+  puts ingredient
 end
