@@ -15,8 +15,8 @@ end
 def long_planeteer_calls(array)
     longword = array.find{|i| i.length > 4}
     if longword != nil
-      false
-    else
+true
+else
       true
     end
 end
