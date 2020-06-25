@@ -13,7 +13,7 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  array.each do |words|
+  value = array.any{|i| i.length > 4}
     
 end
 
